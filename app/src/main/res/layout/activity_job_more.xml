@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".JobMoreActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linear_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/tv_job_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Developer"
+                android:textSize="20sp"
+                android:textColor="#039be5"
+                />
+            <TextView
+                android:id="@+id/tv_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flipkart"
+                android:textColor="@color/basetextcolor"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_company_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/desc_jobID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job ID"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/linear_job"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_jobID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_jobID"
+            android:textColor="@android:color/black"
+            />
+
+
+            <TextView
+                android:id="@+id/desc_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:padding="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/tv_jobID"
+                android:textColor="#039be5"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hyderabad,IN"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/desc_location"
+                android:textColor="@android:color/black"
+                />
+        <TextView
+            android:id="@+id/desc_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Description"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_location"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_description"
+            android:textColor="@android:color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/desc_responsibilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Responsibilities"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_description"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_responsibilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_responsibilities"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/desc_qualifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qualifications"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_responsibilities"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_qualifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_qualifications"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/desc_employmentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employment Type"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_qualifications"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_employmentType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_employmentType"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/desc_applydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last date to apply"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_employmentType"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_lastDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_applydate"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:id="@+id/desc_postedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posted on"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/tv_lastDate"
+            android:textColor="#039be5"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_postedon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hyderabad,IN"
+            android:textSize="20sp"
+            android:padding="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/desc_postedDate"
+            android:textColor="@android:color/black"
+            />
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
